@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vonarian&label=Profile%20views&color=0e75b6&style=flat" alt="vonarian" /> </p>
 
-- 🔭 I’m currently working on [WTbgA](https://github.com/Vonarian/WTbgA)
+- 🔭 I’m currently working on [WTNews](https://github.com/Vonarian/wtnews)
 
 - 🌱 I’m currently learning **Flutter**
 
