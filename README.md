@@ -6,12 +6,7 @@
 - 🔭 I’m currently focused on building scalable and efficient **full-stack applications**.
 - 🌱 I’m currently mastering **Flutter** (Frontend) and **NestJS** (Backend).
 - 💬 Ask me about **Flutter / Dart / NestJS**
-- 📫 How to reach me **t.me/Vonarian**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/vonarianthegreat" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="vonarianthegreat" height="30" width="40" /></a>
-</p>
+- 📫 How to reach me [**Telegram**](https://Vonarian.t.me)
 
 <h3 align="left">Technologies & Platforms:</h3>
 <p align="left">
