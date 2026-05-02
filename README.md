@@ -4,7 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vonarian&label=Profile%20views&color=0e75b6&style=flat" alt="vonarian" /> </p>
 
 - 🔭 I’m currently focused on building scalable and efficient **full-stack applications**.
-- 🌱 I’m currently mastering **Flutter** (Frontend) and **NestJS** (Backend).
+- 🌱 I’m currently mastering **Flutter** (Frontend) and **Golang/NestJS** (Backend).
 - 💬 Ask me about **Flutter / Dart / NestJS**
 - 📫 How to reach me [**Telegram**](https://Vonarian.t.me)
 
