@@ -131,15 +131,18 @@ Proven track record bridging high-throughput backend runtimes (**Go**, **Rust**,
 - Reverse-engineered the OpenRGB hardware synchronization protocol over raw TCP sockets.
 - Packed and unpacked low-level binary payloads (`ByteData`/`Uint8List`) in accordance with strict network protocol specifications.
 
-#### [Aether](https://github.com/Vonarian/Aether)
-**Resilient Asynchronous Network Tunneling Daemon**  
-*Rust • Async Networking • Failover Protocols*
-- Low-latency async networking daemon built in Rust with automated tunnel health monitoring, configurable reconnection thresholds, and failover triggers.
-
 #### [Gramercy](https://github.com/Vonarian/gramercy)
-**Non-Destructive Localization Editor & Delta Patching**  
-*JavaScript • Delta Patching Algorithms*
-- Localization engine for War Thunder featuring update-proof non-destructive delta patching algorithms.
+**War Thunder Localization Cockpit & Community Delta Vault**  
+*Flutter • Dart • Riverpod 3 • Drift SQLite • worker_manager Isolates*
+- Cross-platform desktop application (Windows, Linux, macOS) for non-destructive War Thunder localization management and community preset sharing.
+- Isolates user customizations into an external SQLite vault stored outside the game directory, protecting edits from being overwritten by major game patches.
+- Offloads 50,000+ string token filtering and CSV delta synthesis to background isolate pools (`worker_manager`), ensuring zero UI frame drops.
+- Integrates directly with Gaijin's official `testLocalization:b=yes` hook with zero game memory injection, maintaining 100% BattlEye Anti-Cheat (BEAC) compliance.
+
+#### [Aether](https://github.com/Vonarian/Aether)
+**Rust Userspace WARP Core for Censored Networks (Fork of [CluvexStudio/Aether](https://github.com/CluvexStudio/Aether))**  
+*Rust • MASQUE over HTTP/3 & HTTP/2 • Async Networking*
+- Contributed to userspace censorship-bypass tunneling core in Rust, authoring version flag diagnostics ([PR #23 — Merged](https://github.com/CluvexStudio/Aether/pull/23)), configurable tunnel health checks, reconnect threshold triggers, and CLI data-directory flags.
 
 ---
 
