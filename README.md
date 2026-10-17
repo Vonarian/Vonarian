@@ -11,7 +11,7 @@
     <a href="https://linkedin.com/in/ArdeshirNF"><img src="https://img.shields.io/badge/LinkedIn-ArdeshirNF-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="https://t.me/Vonarian"><img src="https://img.shields.io/badge/Telegram-@Vonarian-24A1DE?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" /></a>
     <a href="mailto:vonarian@hotmail.com"><img src="https://img.shields.io/badge/Email-vonarian@hotmail.com-161A22?style=flat-square&logo=microsoftoutlook&logoColor=00E5FF" alt="Email" /></a>
-    <a href="https://github.com/flutter/flutter/pull/186788"><img src="https://img.shields.io/badge/Flutter-Upstream_Contributor-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter Contributor" /></a>
+    <a href="https://github.com/flutter/flutter/pulls?q=is%3Apr+author%3AVonarian+is%3Amerged"><img src="https://img.shields.io/badge/Flutter-Upstream_Contributor-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter Contributor" /></a>
   </p>
 </div>
 
@@ -102,16 +102,17 @@ Proven track record bridging high-throughput backend runtimes (**Go**, **Rust**,
 - Designed and engineered a lightweight native desktop control center for GitLab engineering teams.
 - Streams GitLab REST and GraphQL APIs entirely in-memory with sub-10ms query evaluation, providing real-time pipeline compile-state matrices, job failure log inspections, and inbox feeds with zero local filesystem overhead.
 
-#### [Flutter Framework (Upstream Contribution — Merged)](https://github.com/flutter/flutter/pull/186788)
-**Upstream Engine & Tooling Native Assets Patch**  
+#### [Flutter Framework & Tooling (Upstream Contributions)](https://github.com/flutter/flutter/pulls?q=is%3Apr+author%3AVonarian+is%3Amerged)
+**Core Engine Tooling, Framework Native Assets & Developer Scaffolding**  
 *Dart • C++ Toolchain Config • flutter_tools*
-- Authored and merged upstream patch in `flutter_tools` native asset compilation ([flutter/flutter#186788](https://github.com/flutter/flutter/pull/186788)) to correctly enforce Windows native toolchain compilation flags (`mustMatchAppBuild` on Windows native assets).
-- Refactored widget preview test states within the framework test harness.
+- **Native Asset Toolchain Flags ([flutter/flutter#186788 — Merged](https://github.com/flutter/flutter/pull/186788))**: Patched `flutter_tools` native asset compilation (`cCompilerConfigWindows`) in upstream `flutter/flutter` to enforce Windows native toolchain compilation flags (`mustMatchAppBuild`).
+- **Widget Preview Architecture & Test Harness ([flutter/flutter#189437 — Merged](https://github.com/flutter/flutter/pull/189437))**: Refactored static state in `WidgetPreviewStartCommand` and resolved generator scaffolding lifecycle in framework preview test suites.
+- **Official Documentation ([flutter/website#13106 — Merged](https://github.com/flutter/website/pull/13106))**: Improved technical phrasing and grammatical consistency across core Flutter developer documentation.
 
 #### [Puro Version Manager](https://github.com/Vonarian/puro)
 **Headless CI/CD Optimization for Flutter Environments**  
 *Dart • CLI Architecture • CI/CD Caching*
-- Contributed to Puro CLI, engineering the `prepare` command to pre-download SDK artifacts and toolchains across headless, containerized CI/CD environments.
+- Contributed to Puro CLI ([pingbird/puro#144](https://github.com/pingbird/puro/pull/144)), engineering the `prepare` command to pre-download SDK artifacts and toolchains across headless, containerized CI/CD environments.
 
 #### [WTNews](https://github.com/Vonarian/wtnews)
 **3-Tier Failover News Aggregation Pipeline**  
